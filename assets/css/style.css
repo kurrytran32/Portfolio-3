@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/indexbg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#indexTitle {
+    color: blue;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linkbtn {
+    width: 100%;
+}
+
+.indexbtn {
+    color:red;
+    font-size: 20px;
+}
+
+#abtme {
+    background-color: white;
+    border-radius: 2%;
+    padding: 10px 20px 10px ;
+    margin-top: 50px;
+}
+
