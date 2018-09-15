@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
 }
 
-#indexTitle {
+#indexTitle, #nameTag {
     color: blue;
     text-align: center;
 }
@@ -28,7 +28,7 @@ body {
 
 #abtme {
     background-color: white;
-    border-radius: 2%;
+    border-radius: 5px;
     padding: 10px 20px 10px ;
     margin-top: 50px;
 }
