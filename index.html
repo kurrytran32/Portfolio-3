@@ -9,62 +9,149 @@
     <!-- My own reset css file -->
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/reset.css" /> -->
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/materialize.css">
     <!-- my own style.css -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- my own js file -->
-    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
-
-    <div class="container">
-        <!-- centering content -->
-        <div class="content-wrapper valign-wrapper">
+    <!-- centering content -->
+    <div class="content-wrapper valign-wrapper">
+        <div class="container">
             <!-- title text -->
-            <h1 id="indexTitle">Some sort of title</h1>
+            <div class="row">
+                <div class="col s12">
+                    <h1 id="indexTitle">Some sort of title</h1>
+                </div>
+            </div>
+
             <!-- link btn div for positioning -->
             <div class='linkbtn row'>
                 <div class="col s4 center-align">
                     <!-- button to about -->
-                    <a class="waves-effect waves-green btn-flat indexbtn" href="#abtme">About Me</a>
+                    <a class="waves-effect waves-green btn-flat indexbtn" id="aboutbtn" href="#abtme">About Me</a>
                 </div>
                 <div class="col s4 center-align">
                     <!-- button to contact -->
-                    <a class="waves-effect waves-green btn-flat indexbtn" href="contact.html">Contact</a>
+                    <a class="waves-effect waves-green btn-flat indexbtn" href="#contact">Contact</a>
                 </div>
                 <div class="col s4 center-align">
                     <!-- button to projects -->
-                    <a class="waves-effect waves-green btn-flat indexbtn" href="projects.html">Projects</a>
+                    <a class="waves-effect waves-green btn-flat indexbtn" id="projbtn" href="#projects">Projects</a>
                 </div>
                 <!-- end div for button row -->
             </div>
-            
+
             <!-- starting div for about me -->
             <div class="row">
-                <div class="container ">
-                    <div class="col s12" id= "abtme">
-                    <p>General Kenobi, years ago you served my father in the Clone Wars. Now he begs you to help him in his struggle against the Empire. I regret that I am unable to present my father's request to you in person, but my ship has fallen under attack and I'm afraid my mission to bring you to Alderaan has failed. I have placed information vital to the survival of the Rebellion into the memory systems of this R2 unit. My father will know how to retrieve it. You must see this droid safely delivered to him on Alderaan. This is our most desperate hour. Help me, Obi-Wan Kenobi, you're my only hope.
-
-                            Someone was in the pod. The tracks go off in this direction. Look, sir -- droids.
-                            
-                            Aren't you a little short to be a stormtrooper? What? Oh...the uniform. I'm Luke Skywalker. I'm here to rescue you. You're who? I'm here to rescue you. I've got your R2 unit. I'm here with Ben Kenobi. Ben Kenobi is here! Where is he? Come on!
-                            
-                            It looks like an Imperial cruiser. Our passengers must be hotter than I thought. Try and hold them off. Angle the deflector shield while I make the calculations for the jump to light speed. Stay sharp! There are two more coming in, they're going to try to cut us off. Why don't you outrun them? I thought you said this thing was fast. Watch your mouth, kid, or you're going to find yourself floating home. We'll be safe enough once we make the jump to hyperspace. Besides, I know a few maneuvers. We'll lose them! Here's where the fun begins!
-                            
-                            Obi-Wan Kenobi...Obi-Wan? Now thats a name I haven't heard in a long time...a long time. I think my uncle knew him. He said he was dead. Oh, he's not dead, not...not yet. You know him! Well of course, of course I know him. He's me! I haven't gone by the name Obi-Wan since oh, before you were born. Then the droid does belong to you. Don't seem to remember ever owning a droid. Very interesting... I think we better get indoors. The Sandpeople are easily startled but they will soon be back and in greater numbers. Threepio! Where am I? I must have taken a bad step... Can you stand? We've got to get out of here before the Sandpeople return. I don't think I can make it. You go on, Master Luke. There's no sense in you risking yourself on my account. I'm done for. No, you're not. What kind of talk is that? Quickly, son...they're on the move.</p>
-                            </div>
+                <div class="container">
+                    <div class="col s12" id="abtme">
+                        <p>General Kenobi, years ago you served my father in the Clone Wars. Now he begs you to help him in
+                            his struggle against the Empire. I regret that I am unable to present my father's request to
+                            you in person, but my ship has fallen under attack and I'm afraid my mission to bring you to
+                            Alderaan has failed. I have placed information vital to the survival of the Rebellion into the
+                            memory systems of this R2 unit. My father will know how to retrieve it. You must see this droid
+                            safely delivered to him on Alderaan. This is our most desperate hour. Help me, Obi-Wan Kenobi,
+                            you're my only hope. Someone was in the pod. The tracks go off in this direction. Look, sir --
+                            droids. Aren't you a little short to be a stormtrooper? What? Oh...the uniform. I'm Luke Skywalker.
+                            I'm here to rescue you. You're who? I'm here to rescue you. I've got your R2 unit. I'm here with
+                            Ben Kenobi. Ben Kenobi is here! Where is he? Come on! It looks like an Imperial cruiser. Our
+                            passengers must be hotter than I thought. Try and hold them off. Angle the deflector shield while
+                            I make the calculations for the jump to light speed. Stay sharp! There are two more coming in,
+                            they're going to try to cut us off. Why don't you outrun them? I thought you said this thing
+                            was fast. Watch your mouth, kid, or you're going to find yourself floating home. We'll be safe
+                            enough once we make the jump to hyperspace. Besides, I know a few maneuvers. We'll lose them!
+                            Here's where the fun begins! Obi-Wan Kenobi...Obi-Wan? Now thats a name I haven't heard in a
+                            long time...a long time. I think my uncle knew him. He said he was dead. Oh, he's not dead, not...not
+                            yet. You know him! Well of course, of course I know him. He's me! I haven't gone by the name
+                            Obi-Wan since oh, before you were born. Then the droid does belong to you. Don't seem to remember
+                            ever owning a droid. Very interesting... I think we better get indoors. The Sandpeople are easily
+                            startled but they will soon be back and in greater numbers. Threepio! Where am I? I must have
+                            taken a bad step... Can you stand? We've got to get out of here before the Sandpeople return.
+                            I don't think I can make it. You go on, Master Luke. There's no sense in you risking yourself
+                            on my account. I'm done for. No, you're not. What kind of talk is that? Quickly, son...they're
+                            on the move.</p>
+                        <!-- ending div for abtme column  -->
+                    </div>
+                    <!-- end div for abt container -->
                 </div>
 
                 <!-- end div for about me row -->
             </div>
 
+            <!-- starting div for projects div -->
+            <div class="row">
+                <div class="container">
+                    <!-- col div for projects -->
+                    <div class="col s12" id="project">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header">
+                                    First</div>
+                                <div class="collapsible-body">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons">place</i>Second</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons">whatshot</i>Third</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    First</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    First</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end col div proj -->
+                </div>
+                <!-- end div container -->
+            </div>
+            <!-- end div for projects div -->
         </div>
-        <!-- end div for container -->
-    </div>
+        <!-- contact info -->
+        <div class="row" >
+            <div class="container">
+                <div class="col s12 m6" id="contact">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Card Title</span>
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+            <!-- contact info div -->
+        </div>
+        <!-- end div for container wrapper -->
+    </div>
+    <!-- end div for content -->
+
+
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 
