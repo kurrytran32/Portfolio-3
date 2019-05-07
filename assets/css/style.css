@@ -33,7 +33,6 @@ body {
 #project {
     width: 100%;
     background-color: white;
-    
     border-radius: 10px;
 }
 .collapsible {
@@ -59,7 +58,7 @@ body {
     background-color: white;
     text-align: center;
     float: none;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 .headerText {
     margin-top: 2%;
@@ -80,4 +79,8 @@ a, p, .collapsible-header, li {
     width: 100%;
     position: absolute;
     margin-top: 10px;
+    opacity: 0.7;
+}
+#porfolioRule {
+    margin: 0px;
 }
